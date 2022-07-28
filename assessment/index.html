@@ -16,7 +16,7 @@
     
     
       
-        <title>Index - Be-Secure</title>
+        <title>Security Assessment (Community Edition) - Be-Secure</title>
       
     
     
@@ -66,11 +66,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#tbd" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Index
+              Security Assessment (Community Edition)
             
           </span>
         </div>
@@ -256,10 +251,12 @@
         
   
   
+    
+  
 
 
   <li class="md-tabs__item">
-    <a href="../assessment/" class="md-tabs__link">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
       Security Assessment
     </a>
   </li>
@@ -425,11 +422,19 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../assessment/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Security Assessment
       </a>
+      
     </li>
   
 
@@ -471,47 +476,34 @@
               </div>
             
             
-              
-                
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tbd" class="md-nav__link">
-    TBD
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>Index</h1>
-                
-                <h2 id="tbd">TBD</h2>
+                <h1> Be-Secure seven stage security assessment </h1>
+
+<p> This section describes the seven stages of Be-Secure CE security assessment to enhance the security posture of open source projects / open source tech stacks. </p>
+
+<p><img alt="Security assessment" src="../assets/images/Enhance_BeSman.png" /></p>
+<p> Once we receive a request from the community member / user of Be-Secure project to assess an open source tech stack, we will fork the respective open source project into Be-Secure namespace. Then we will commence with our seven stage security assessment as listed below - </p>
+
+<ul>
+
+<li> First stage: Identification of the blueprint for BeSman environment using the details on the open source tech stack that has been shared. </li>
+
+<li> Second stage: If a suitable blueprint doesn’t exist, build a new BeSman environment. This will be the base environment to perform development activities for the shared open source tech stack. </li>
+
+<li> Third stage: Build the security testing environment/sandbox that can be utilized for conducting security testing for the specific open source tech stack. </li>
+
+<li> Fourth stage: Conduct security assessment and identify the vulnerabilities in it. This vulnerability information will be published. </li>
+
+<li> Fifth stage: Identify and develop security patches for the identified vulnerabilities. </li>
+
+<li> Sixth stage: Upgrade the respective BeSman environments with the confirmed new security patches to strengthen their security posture. Publish the upgraded BeSman environments for active consumption </li>
+
+<li> Seventh stage: For an existing BeSman environment, the focus is on identifying the latest security vulnerabilities and mapping it to the respective environment. This is a continuous activity that is focused on enhancing the security posture of BeSman environments to address the latest identified vulnerabilities. </li>
                 
                   
                 
@@ -534,6 +526,41 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../our_oss_project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Our OSS projects" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Our OSS projects
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../contribute/" class="md-footer__link md-footer__link--next" aria-label="Next: Contribute" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Contribute
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
